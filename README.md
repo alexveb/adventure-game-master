@@ -10,11 +10,11 @@ In this project, you'll make a simple version of an old-fashioned text-based adv
 
 As you can see, this is only a very short game with a couple of choices available to the player. We did that on purpose, to keep it simple. If we were making a complete game, we would expand it a great deal, and probably give the player a whole world to explore. But for this project, the idea is to focus on some key things that we need if want to make a working game:
 
--The game gives players a description of what's happening, and then asks them to make a choice.
--Something different happens depending on the choice the player made.
--The game also includes some random factors, so that it's a little different each time.
--The game has conditions for winning and losing.
--When the game is over, it asks if the player wants to play again.
+- The game gives players a description of what's happening, and then asks them to make a choice.
+- Something different happens depending on the choice the player made.
+- The game also includes some random factors, so that it's a little different each time.
+- The game has conditions for winning and losing.
+- When the game is over, it asks if the player wants to play again.
 
 These are the key features that your project will need to have in order to make it into a playable game. We'll go over each of them in more detail below.
 
@@ -84,9 +84,9 @@ Another key feature of most games is randomness or chance. If everything always 
 
 There are all sorts of ways you could use randomness in your game. Here are just a few possibilities:
 
--In the example game, the enemy creature is selected randomly each time they play. Sometimes it's a pirate, sometimes it's a troll, and so on.
--You could do something similar to randomize which weapons or magical items the player encounters.
--You could include a combat simulation in which the player and enemy deal random amounts of damage to one another (you may remember that we did something like this earlier in the course).
+- In the example game, the enemy creature is selected randomly each time they play. Sometimes it's a pirate, sometimes it's a troll, and so on.
+- You could do something similar to randomize which weapons or magical items the player encounters.
+- You could include a combat simulation in which the player and enemy deal random amounts of damage to one another (you may remember that we did something like this earlier in the course).
 
 All of these can be done using Python's random module and the random.choice and random.randint functions that we learned about earlier.
 
